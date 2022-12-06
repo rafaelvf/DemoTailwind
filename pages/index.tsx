@@ -64,14 +64,14 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               Since the beggining of my ourney as a freelancer as a developer,
-              I've done remote work for
+              I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span> consulted for{" "}
               <span className="text-teal-500">projects</span> and collaborated
               for startups
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               Since the beggining of my journey as a freelancer as a developer,
-              I've done remote work for
+              I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span> consulted for{" "}
               <span className="text-teal-500">projects</span> and collaborated
               for startups
@@ -142,14 +142,14 @@ export default function Home() {
           <div>
             <p className="text-md py-5 leading-8 text-gray-800">
               Since the beggining of my ourney as a freelancer as a developer,
-              I've done remote work for
+              I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span> consulted for{" "}
               <span className="text-teal-500">projects</span> and collaborated
               for startups
             </p>
             <p className="text-md py-5 leading-8 text-gray-800">
               Since the beggining of my ourney as a freelancer as a developer,
-              I've done remote work for
+              I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span> consulted for{" "}
               <span className="text-teal-500">projects</span> and collaborated
               for startups
