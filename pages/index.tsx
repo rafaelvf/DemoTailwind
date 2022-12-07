@@ -199,7 +199,7 @@ export default function Home() {
             <span className="text-3xl">Animations</span> (this has a 20px
             padding bottom)
           </h1>
-          <div className="flex items-center justify-center p-10 bg-red-500 hover:bg-cyan-500 rounded mb-2 w-5/6 transition-all delay-100">
+          <div className="flex items-center justify-center p-10 bg-red-500 hover:bg-cyan-500 rounded mb-2 w-5/6 transition-all duration-500">
             Hover me!
           </div>
           <Image
@@ -244,6 +244,38 @@ export default function Home() {
             }
           >
             success
+          </div>
+        </section>
+        <section className="mb-10">
+          <h1 className="pb-[20px] pt-6">
+            <span className="text-3xl">
+              Grid Example{" "}
+              <span className="text-sm">(resize screen to see)</span>
+            </span>
+          </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+            <div className="bg-red-400 h-24"></div>
+            <div className="bg-yellow-400 h-24"></div>
+            <div className="bg-green-400 h-24"></div>
+            <div className="bg-blue-400 h-24"></div>
+            <div className="bg-pink-400 h-24"></div>
+            <div className="bg-purple-400 h-24"></div>
+          </div>
+        </section>
+        <section className="mb-10">
+          <h1 className="pb-[20px] pt-6">
+            <span className="text-3xl">
+              Another Grid Example{" "}
+              <span className="text-sm">(resize screen to see)</span>
+            </span>
+          </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+            <div className="bg-red-400 h-24 col-span-4"></div>
+            <div className="bg-yellow-400 h-24 w-full "></div>
+            <div className="bg-green-400 h-24 w-full"></div>
+            <div className="bg-blue-400 h-24 w-full col-span-2"></div>
+            <div className="bg-pink-400 h-24 w-full md:col-span-4"></div>
+            <div className="bg-purple-400 h-24 w-full col-span-4"></div>
           </div>
         </section>
       </main>
