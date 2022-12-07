@@ -20,7 +20,7 @@ export default function Home() {
         {/* md will be the breakpoint for medium screens */}
         <section className="bg-white px-10 dark:bg-gray-900">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons dark:text-white">
+            <h1 className="text-xl text-yellow-500 font-burtons dark:text-white">
               developedbyrafa
             </h1>
             <ul className="flex items-center">
@@ -303,7 +303,7 @@ export default function Home() {
               alt="s"
               width={150}
               height={150}
-              className="mx-auto absolute top-0 left-0"
+              className="mx-auto absolute top-0 right-0"
             />
           </div>
         </section>
