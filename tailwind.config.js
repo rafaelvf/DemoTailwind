@@ -9,6 +9,16 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        Kenia: "Kenia",
+      },
+      screens: {
+        llf: "700px",
+      },
+      colors: {
+        "gold-light": "#F0C68C",
+      },
+      fontSize: {
+        reallyBig: "8rem",
       },
     },
   },

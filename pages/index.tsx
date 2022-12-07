@@ -278,6 +278,18 @@ export default function Home() {
             <div className="bg-purple-400 h-24 w-full col-span-4"></div>
           </div>
         </section>
+        <section className="mb-10">
+          <h1 className="pb-[20px] pt-6">
+            <span className="text-3xl">
+              Import a font & custom classes{" "}
+              <span className="text-sm">(resize screen to see)</span>
+            </span>
+          </h1>
+          <div className="font-Kenia text-sm text-red-500 llf:text-lg llf:text-black hover:text-gold-light">
+            This a an example of an imported font from Google
+          </div>
+          <div className="text-reallyBig">This is a really big text</div>
+        </section>
       </main>
     </div>
   );

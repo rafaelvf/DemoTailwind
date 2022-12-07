@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,6 +24,10 @@ a {
   font-family: "burtons";
   src: url("/Burtons.otf");
 }
+/* @font-face {
+  font-family: "Noto Sans Chakma";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+Chakma&display=swap");
+} */
 
 @layer components {
   .button {
