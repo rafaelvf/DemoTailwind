@@ -290,6 +290,23 @@ export default function Home() {
           </div>
           <div className="text-reallyBig">This is a really big text</div>
         </section>
+        <section className="mb-10 ">
+          <h1 className="pb-[20px] pt-6">
+            <span className="text-3xl ">
+              Absolute position image{" "}
+              <span className="text-sm">(resize screen to see)</span>
+            </span>
+          </h1>
+          <div className="relative h-[300px] w-5/6 border-solid border-2 border-indigo-600">
+            <Image
+              src="/design.png"
+              alt="s"
+              width={100}
+              height={100}
+              className="mx-auto absolute top-0 left-0"
+            />
+          </div>
+        </section>
       </main>
     </div>
   );
